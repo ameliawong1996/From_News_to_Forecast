@@ -29,7 +29,7 @@ The main components of our system are:
 ## Dataset
 ### Overview
 
-Our dataset is a crucial component of the research and spans several sectors where time series forecasting can be enhanced by integrating real-world events and news data. The dataset includes both structured numerical data and unstructured textual information, offering a unique blend of insights for more accurate and adaptive forecasting.
+Our dataset is a crucial component of the research and spans several sectors where time series forecasting can be enhanced by integrating real-world events and news data. The dataset includes both structured numerical data and unstructured textual information, offering a unique blend of insights for more accurate and adaptive forecasting. The model integrates structured time series data with unstructured news data to improve forecast accuracy across various domains, including electricity demand, Bitcoin prices, exchange rates, and traffic volume.
 
 The dataset covers the following domains:
 1. **Electricity Demand (Australia)**:
@@ -61,3 +61,70 @@ The dataset is structured as follows:
   - **News Data**: Raw and filtered news articles with metadata for each domain.
 
 For more details about the dataset, refer to the `dataset/` directory.
+
+## Program Details
+### Running the Code in Jupyter Notebook
+
+All the steps for data preprocessing, model training, and forecasting are contained within the provided Jupyter Notebook. Follow these steps to run the notebook:
+
+1. **Open the Notebook**: Start by launching the Jupyter Notebook interface and opening the `main.ipynb` file, which contains the complete workflow for time series forecasting with LLMs.
+
+2. **Data Preprocessing**: 
+   - loading and preprocessing the time series and news data.
+     
+3. **News Data Integration**:
+   - The LLM agent creates news selection logic based on the time series task, guiding the filtering of relevant news, and aligning it with the time series data
+     
+4. **Model Training**:
+   - fine-tuning a Large Language Model (LLM) using the preprocessed time series and selected news data.
+
+5. **Forecasting**:
+   - forecasting future values using both the historical time series and the news data.
+  
+6. **Evaluation**
+   - validating the model’s prediction with validation sets. The evaluation agent checks for missing news that may have influenced the prediction, helping to refine the filtering logic in subsequent iterations.
+
+
+### Metrics
+
+The notebook uses the following metrics to compare the prediction performances of different forecasting models:
+
+- **MSE (Mean Squared Error)**
+- **RMSE (Root Mean Square Error)**
+- **MAE (Mean Absolute Error)**
+- **MAPE (Mean Absolute Percentage Error)**
+
+### Usage
+
+To use the notebook:
+1. Clone the repository and navigate to the project directory:
+    ```bash
+    git clone https://github.com/your-repo-name.git
+    cd your-repo-name
+    ```
+
+2. Install the necessary dependencies (make sure `requirements.txt` is provided with the needed packages):
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Start Jupyter Notebook:
+    ```bash
+    jupyter notebook
+    ```
+
+4. Open and run `main.ipynb`.
+
+
+### Citation
+
+If you use this code in your research, please cite our paper:
+```
+@inproceedings{wang2024newsforecast,
+   title={From News to Forecast: Iterative Event Reasoning in LLM-Based Time Series Forecasting},
+   author={Wang, Xinlei and Feng, Maike and Qiu, Jing and Gu, Jinjin and Zhao, Junhua},
+   booktitle={Neural Information Processing Systems},
+   year={2024}
+}
+```
+
