@@ -6,11 +6,9 @@
 > School of Science and Engineering, The Chinese University of Hong Kong, Shenzhen; <br>
 > Shenzhen Institute of Artificial Intelligence and Robotics for Society <be>
 
-<-- This repository is for the paper entitled: From News to Forecast: Iterative Event Reasoning in LLM-Based Time Series Forecasting -->
+<!-- This repository is for the paper entitled: From News to Forecast: Iterative Event Reasoning in LLM-Based Time Series Forecasting -->
 
-<-- Code coming soon. -->
-
-
+<!-- Code coming soon. -->
 
 This repository contains the code and dataset for our paper: **"From News to Forecast: Iterative Event Reasoning in LLM-Based Time Series Forecasting"**, presented at NeurIPS 2024.
 
