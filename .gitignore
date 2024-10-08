@@ -1,0 +1,59 @@
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon files
+Icon?
+._*
+
+# Thumbnails
+._.DS_Store
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# macOS folder attributes
+.VolumeIcon.icns
+.metadata_never_index
+.fseventsd
+
+# Vim swap files
+.*.swp
+
+# Temporary files
+.TemporaryItems
+.apdisk
+
+# Application specific
+.idea/
+.vscode/
+*.xcworkspace
+*.xcuserstate
+*.xcodeproj
+*.xcuserdata
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node.js specific
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# Logs
+*.log
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# System files
+.DS_Store
+.DS_Store
