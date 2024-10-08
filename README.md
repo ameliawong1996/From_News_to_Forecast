@@ -45,7 +45,7 @@ The News data is collected from a variety of sources, including:
 - **Yahoo Finance**: For financial news related to the exchange rate and Bitcoin price domains.
 - **News AU**: News for Australian national or international Events.
 
-The Australian news data used in the forecasting model for the energy and exchange domains is stored in the `raw_data/AU-news` directory, and the raw news data related to the Bitcoin and traffic domains is stored in the `raw_news_data` directory.
+The Australian news data used in the forecasting model for the energy and exchange domains is stored in the `raw_data/AU-news` directory, and the raw news data related to the Bitcoin and traffic domains is stored in the `raw_news_data` directory. Use `cat data/raw_news_data/AU-news/news_processed_data_2019_part_* > data/raw_news_data/AU-news/news_processed_data_2019_merged.json` to merge the file parts.
 
 We also enhance the dataset with supplementary information such as weather data (from OpenWeatherMap), calendar dates, and economic indicators to further enrich the context for forecasting.
 
