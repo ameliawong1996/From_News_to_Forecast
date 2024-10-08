@@ -33,10 +33,10 @@ Our dataset is an important part of research covering multiple areas where time 
 
 We provide:
 
-- State-level half-hourly electricity load data with supplementary information provided by the Australian Energy Market Operator (AEMO) in the code, covering the period from 2019 to 2023 (`Agent/Data_all/AU_load/AULF-2019-2023.csv`);
-- Time series data for daily exchange rate data with a special focus on the Australian dollar between 2018 and 2022;
-- Time series data for daily Bitcoin price from 2019 to 2021;
-- Time series data for hourly traffic volume data in various California roads between 2015 and 2016.
+- State-level half-hourly electricity load data provided by the Australian Energy Market Operator (AEMO) and supplementary information, covering the period from 2019 to 2022 (`data/raw_time_series_data/weather_load_2019-2022.csv`);
+- Time series data for daily exchange rate data with a focus on the Australian dollar and supplementary economic indicators between 2018 and 2022 (`data/raw_time_series_data/Exchang_all_data_2018-2022_D_final.csv`);
+- Time series data for daily Bitcoin price from 2019 to 2021 (`data/raw_time_series_data/bitcoin_daily.csv`);
+- Time series data for hourly traffic volume in each California road between 2015 and 2016 (`data/raw_time_series_data/traffic_hourly.csv`).
 
 ### News Data
 
@@ -45,9 +45,12 @@ The News data is collected from a variety of sources, including:
 - **Yahoo Finance**: For financial news related to the exchange rate and Bitcoin price domains.
 - **News AU**: News for Australian national or international Events.
 
-The Australian news data used in the forecasting model for the energy and exchange domains is stored in the `raw_data/AU-news` directory, and the raw news data related to the Bitcoin and traffic domains is stored in the `raw_news_data` directory. Use `cat data/raw_news_data/AU-news/news_processed_data_2019_part_* > data/raw_news_data/AU-news/news_processed_data_2019_merged.json` to merge the file parts.
-
 We also enhance the dataset with supplementary information such as weather data (from OpenWeatherMap), calendar dates, and economic indicators to further enrich the context for forecasting.
+
+The Australian news data used in the forecasting model for the energy and exchange domains is stored in the `data/raw_news_data/AU-news` directory, and the raw news data related to the Bitcoin and traffic domains is stored in the `data/raw_news_data` directory. Use `cat data/raw_news_data/AU-news/news_processed_data_2019_part_* > data/raw_news_data/AU-news/news_processed_data_2019_merged.json` to merge the file parts.
+
+The `data/paired_time_series_news_training_data` directory contains the matched time series and news data used to fine-tune and test the model.
+
 
 ## Program Details
 
