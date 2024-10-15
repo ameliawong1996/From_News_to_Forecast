@@ -1,6 +1,6 @@
 # From News to Forecast: Iterative Event Reasoning in LLM-Based Time Series Forecasting (NeurIPS 2024)
 
-> [[Paper (arXiv)](https://arxiv.org/abs/2409.17515)], [[MIT Technology Review (China) Feature](https://mp.weixin.qq.com/s/MihRIwgfZ11CUF7X8xVyUg)] <br>
+> [[Paper (arXiv)](https://arxiv.org/abs/2409.17515)], [[MIT Technology Review (China) Feature](https://www.mittrchina.com/news/detail/13878)] <br>
 > [Xinlei Wang](https://scholar.google.com/citations?user=BfaMv18AAAAJ&hl=en), Maike Feng, [Jing Qiu](https://scholar.google.com/citations?user=QUclXRoAAAAJ&hl=en), [Jinjin Gu](https://www.jasongt.com/), [Junhua Zhao](https://www.zhaojunhua.org/) <br>
 > School of Electrical and Computer Engineering, The University of Sydney; <br>
 > School of Science and Engineering, The Chinese University of Hong Kong, Shenzhen; <br>
