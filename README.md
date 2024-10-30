@@ -1,4 +1,4 @@
-# From News to Forecast: Iterative Event Reasoning in LLM-Based Time Series Forecasting (NeurIPS 2024)
+# From News to Forecast: Integrating Event Analysis in LLM-based Time Series Forecasting with Reflection (NeurIPS 2024)
 
 > [[Paper (arXiv)](https://arxiv.org/abs/2409.17515)], [[MIT Technology Review (China) Feature](https://www.mittrchina.com/news/detail/13878)] <br>
 > [Xinlei Wang](https://scholar.google.com/citations?user=BfaMv18AAAAJ&hl=en), Maike Feng, [Jing Qiu](https://scholar.google.com/citations?user=QUclXRoAAAAJ&hl=en), [Jinjin Gu](https://www.jasongt.com/), [Junhua Zhao](https://www.zhaojunhua.org/) <br>
@@ -7,7 +7,7 @@
 > Shenzhen Institute of Artificial Intelligence and Robotics for Society <be>
 
 
-This repository contains the code and dataset for our paper: **"From News to Forecast: Iterative Event Reasoning in LLM-Based Time Series Forecasting"**, presented at NeurIPS 2024.
+This repository contains the code and dataset for our paper: **"From News to Forecast: Integrating Event Analysis in LLM-Based Time Series Forecasting with Reflection"**, presented at NeurIPS 2024.
 
 ## Abstract
 
@@ -154,7 +154,7 @@ The `data/paired_time_series_news_training_data` directory contains the matched 
 If you find our research helpful, please cite our paper:
 ```
 @inproceedings{wang2024newsforecast,
-   title={From News to Forecast: Iterative Event Reasoning in LLM-Based Time Series Forecasting},
+   title={From News to Forecast: Integrating Event Analysis in LLM-Based Time Series Forecasting with Reflection},
    author={Wang, Xinlei and Feng, Maike and Qiu, Jing and Gu, Jinjin and Zhao, Junhua},
    booktitle={Neural Information Processing Systems},
    year={2024}
